@@ -1,6 +1,6 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+Sebastián Velásquez Pérez
+000147692
+sebasvel0625@gmail.com
 (START)
     @START
     0;JMP
