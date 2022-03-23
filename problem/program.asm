@@ -1,6 +1,50 @@
-// COLOCO AQUÍ TU NOMBRE COMPLETO
-// COLOCA AQUÍ TU ID
-// COLOCA AQUÍ TU CORREO ELECTRÓNICO
+//Sebastián Velásquez Pérez
+//000147692
+//sebastian.velasquezp@upb.edu.co
 (START)
-    @START
-    0;JMP
+@16384
+D=A
+@0
+M=D
+@0
+D=M
+@1
+M=D
+@24576
+D=M
+@70
+D=D-A
+@27
+D;JNE
+@1
+D=M
+@24575
+D=D-A
+@4
+D;JGT
+@1
+A=M
+M=-1
+@1
+M=M+1
+@14
+0;JMP
+@24576
+D=M
+@67
+D=D-A
+@4
+D;JNE
+@1
+D=M
+@24575
+D=D-A
+@4
+D;JGT
+@1
+A=M
+M=0
+@1
+M=M+1
+@33
+0;JMP
